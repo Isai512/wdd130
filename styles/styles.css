@@ -24,3 +24,31 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    max-width: 850px;
+}
+
+aside {
+    width: auto;
+    margin: 0;
+    border: 1px solid steelblue;
+    padding: 2px;
+    background-color: gainsboro;
+    color: hsla(200,0%,0%,.7);
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin: 20px;
+    border-top: 1px solid steelblue;
+    text-align: center;
+}
