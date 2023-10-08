@@ -76,16 +76,11 @@ footer {
 aside {
     width: 500px;
     text-align: center;
+    position: relative;
 }
 
 main img {
     float: right;
-}
-
-aside h2 {
-    position: absolute;
-    top: 574px;
-    right: 1135px;
 }
 
 header, .grid footer {
