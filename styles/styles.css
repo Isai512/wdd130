@@ -83,6 +83,12 @@ main img {
     float: right;
 }
 
+aside h2 {
+    position: absolute;
+    top: 574px;
+    right: 1135px;
+}
+
 header, .grid footer {
     max-width: 840px;
     margin: auto;
