@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Inconsolata:wght@200&family=Oswald:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Inconsolata:wght@200&family=Indie+Flower&family=Oswald:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-size: 1.3em;
+    color: #000000;
+    background: #FFFAF0;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    color: #8B4513;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid #8B4513;
+    border-radius: 2.5rem ;
+    background-color: #F8F8FF;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1.5rem;
+    border: 1px solid rgba(128, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+button,
+select,
+textarea {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+width: 22px;
+height: 22px;
+vertical-align: bottom;
+}
+
+button { 
+    margin: 1rem;
+    background-color: #87CEFA;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #20B2AA;
+}
