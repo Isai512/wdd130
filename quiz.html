@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Isai Ruiz Rodriguez |Quiz Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>HTML & CSS</legend>
+                <label for="1st-question">What's the meaning of "HTML"?</label>
+                <input type="text" id="1st-question" name="1st-question">
+                <label for="2nd-question">What do you think you can use html for?</label>
+                <textarea id="2nd-question" name="2nd-question" rows="4" placeholder="I think..."></textarea>
+                <label for="3rd-question">If you want to give style to your website you have to use:</label>
+                <select id="3rd-question" name="3rd-question">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="html">HTML</option>
+                    <option value="other">Other</option>
+                    <option value="css">CSS</option>
+                    <option value="paint">Paint</option>
+                </select>
+                <label for="4th-question">How many pixels is 0.06rem?</b></label>
+                <input type="number" id="4th-question" name="4th-question">
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
