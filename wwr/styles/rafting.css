@@ -189,3 +189,107 @@ footer {
     width: 30px;
     height: auto;
 }
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #D1D0CE;
+    border-radius: 0.5rem;
+}
+
+.information h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.information h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.information .address {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.information .phone-number {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.information .email {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.information .map {
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+.employee-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.employee-images img {
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 2px 3px;
+}
+
+.employee-images figure {
+    text-align: left;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid #8B4513;
+    border-radius: 2.5rem ;
+    background-color: #F8F8FF;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1.5rem;
+    border: 1px solid rgba(128, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+button,
+select,
+textarea {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+button { 
+    margin: 1rem;
+    background-color: #87CEFA;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #20B2AA;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    }
