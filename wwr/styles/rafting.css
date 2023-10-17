@@ -293,3 +293,7 @@ input[type="checkbox"] {
     height: 22px;
     vertical-align: bottom;
     }
+
+.contact-us h1 {
+    text-align: center;
+}
