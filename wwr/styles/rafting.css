@@ -18,6 +18,7 @@
 body {
     max-width: 1200px;
     margin: auto;
+    background: linear-gradient(to bottom, #3498db, white);
 }
 
 .hero img.heroimg {
@@ -73,35 +74,6 @@ header {
 }
 .boton:hover {
     background-color: var(--nav-hover-link-color);
-}
-
-.history {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.history h2 {
-    margin-top: 0;
-}
-
-.columns {
-    display: flex;
-    justify-content: space-around;
-}
-
-.column {
-    flex: 1;
-    padding: 10px;
-    max-width: 250px; 
-    text-align: center;
-    margin-bottom: 10px; 
-}
-
-.column img {
-    max-width: 100%;
-    width: 150px;
 }
 
 .hero {
@@ -296,4 +268,91 @@ input[type="checkbox"] {
 
 .contact-us h1 {
     text-align: center;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.history h2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.history .columns .column img {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-content: center;
+    width: 200px;
+    height: auto;
+}
+
+.history .columns .column1 p {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.history .columns .column3 p {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.adventure_rafting img {
+    width: 320px;
+    align-items: center;
+    text-align: left;
+    box-shadow: 1px 1px 1px 2px;
+}
+
+.adventure_rafting {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trip_h1,
+.trip_p {
+    text-align: center;
+}
+
+.trip_p {
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.boton1 { 
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid var(--nav-hover-link-color);
+    color: black;
+    border-radius: 20px;
+    background-color: var(--nav-hover-background-color);
+    box-shadow: 1px 1px  2px;
+}
+
+.boton1:hover {
+    background-color: var(--nav-hover-link-color);
 }
