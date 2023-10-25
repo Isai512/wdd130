@@ -273,6 +273,8 @@ input[type="checkbox"] {
 .history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto 3fr; 
+    gap: 10px;
 }
 
 .history h2 {
@@ -280,20 +282,18 @@ input[type="checkbox"] {
     grid-column: 2/3;
 }
 
-.history .columns .column img {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    align-content: center;
-    width: 200px;
-    height: auto;
-}
-
-.history .columns .column1 p {
+.history .column1 p {
     grid-row: 2/3;
     grid-column: 1/2;
 }
 
-.history .columns .column3 p {
+.history .column img {
+    width: 150px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.history .column3 p {
     grid-row: 2/3;
     grid-column: 3/4;
 }
